@@ -1,7 +1,4 @@
-# Python-1
+# Pyton 
 
-Code from my first year on GPSI course 
+Programas 1º ano de GPSI
 
-
-
-Código do meu primeiro ano de GPSI
