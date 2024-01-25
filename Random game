@@ -1,0 +1,24 @@
+import random
+N = random.randint(1,10)
+i = 1
+Resp = int(input("Tente adivinhatr o número (1-10)"))
+if Resp == N: 
+    print ("Parabéns, você acertou!!")
+while Resp != N and i < 3:
+    if i == 1:
+        print ("Errado, tente novamente")
+    elif i == 2:
+        if Resp < N:
+            print ("O número a acertar é maior, tente novamente")
+        else: 
+            print ("O número a acertar é menor, tente novamente")
+    elif i == 3:
+        if Resp < N:
+            print ("O número a acertar é maior, última tentativa")
+        else: 
+            print ("O número a acertar é menor, última tentativa")
+    i = i + 1
+    Resp = int(input(""))        
+if i == 4:
+    print("Acabaram as tentativas")
+print("Você gastou", i, "Tentativas e o número era", N)
