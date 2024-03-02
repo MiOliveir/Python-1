@@ -1,4 +1,3 @@
-# Pyton 
+# Python
 
-Programas 1º ano de GPSI
-
+Programas criados para escola no 1º ano de GPSI
